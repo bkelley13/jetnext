@@ -8,6 +8,9 @@
  * @oncall web_perf_infra
  */
 
+import 'rsuite/dist/rsuite.min.css';
+// import '@oracle/oraclejet-preact/dist/amd/Theme-redwood/theme.css';
+// import '../node_modules/@oracle/oraclejet-preact/amd/Theme-redwood/theme.css';
 import Layout from '../components/layout.jsx';
 import React from 'react';
 

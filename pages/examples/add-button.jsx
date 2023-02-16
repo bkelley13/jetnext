@@ -7,7 +7,10 @@
 
 import Link from 'next/link';
 import React from 'react';
-import Button from '@oracle/oraclejet';
+import { Button } from 'rsuite';
+// import { Button as JetButton } from '@oracle/oraclejet-preact/UNSAFE_Button';
+// import { Button as JetCoreButton } from '@oracle/oraclejet-core-pack/oj-c/button';
+
 
 export default function AddButton() {
   const addNewItem = () => {
@@ -32,6 +35,7 @@ export default function AddButton() {
         <button type="button" className="btn" onClick={addNewItem}>
           Adding buttons
         </button>
+        <Button appearance="primary" href="https://rsuitejs.com/guide/use-next-app/">RSuitejs Button</Button>        
       </div>
     </div>
   );
